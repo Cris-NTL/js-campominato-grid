@@ -47,6 +47,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // clicked button function
     function clickedBtn(event) {
-        event.target.style.setProperty('background-color', 'var(--quaternary-color)');
+        event.target.style.setProperty('background-color', 'var(--senary-color)');
     }
 });

@@ -14,16 +14,17 @@ body {
 /* utility */
 :root {
     --default-color: #ffffff;
-    --primary-color: #264653;
-    --secondary-color: #2A9D8F;
-    --tertiary-color: #E9C46A;
-    --quaternary-color: #F4A261;
-    --quinary-color: #E76F51;  
+    --primary-color: #DA7C76;
+    --secondary-color: #74A16D;
+    --tertiary-color: #FFDB9C;
+    --quaternary-color: #212C57;
+    --quinary-color: #E136A7;
+    --senary-color: #733E6A;  
 }
 /* // utility */
 /* rules */
 .wrapper {
-    background-color: var(--secondary-color);
+    background-color: var(--tertiary-color);
     width: 100%;
     height: 100vh;
 }
@@ -39,7 +40,7 @@ nav {
 }
 
 #playBtn {
-    background-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
     border-radius: 25px 25px;
     border: none;
     color: var(--default-color);
@@ -59,7 +60,7 @@ nav {
 }
 
 footer {
-    background-color: var(--quinary-color);
+    background-color: var(--quaternary-color);
     color: var(--default-color);
     width: 100%;
     height: 50px;
