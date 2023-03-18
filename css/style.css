@@ -1,0 +1,68 @@
+/* reset */
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* // reset */
+
+/* utility */
+:root {
+    --default-color: #ffffff;
+    --primary-color: #264653;
+    --secondary-color: #2A9D8F;
+    --tertiary-color: #E9C46A;
+    --quaternary-color: #F4A261;
+    --quinary-color: #E76F51;  
+}
+/* // utility */
+/* rules */
+.wrapper {
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+nav {
+    background-color: var(--primary-color);
+    color: var(--default-color);
+}
+
+#playBtn {
+    background-color: var(--tertiary-color);
+    border-radius: 25px 25px;
+    border: none;
+    color: var(--default-color);
+}
+
+.container {
+    height: calc(100vh - 120px);
+}
+
+.card {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+footer {
+    background-color: var(--quinary-color);
+    color: var(--default-color);
+    width: 100%;
+    height: 50px;
+}
+
+/* // rules */
